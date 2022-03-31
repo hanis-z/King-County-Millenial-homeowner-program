@@ -14,14 +14,19 @@ King County in Washington State is growing in population made up of millenials a
 ## Stakeholder  
   
 ## Business Problem
-Every indiviual homeseeker desires features about their future home, but they do not always know how much it may cost them.  Using our multiple linear regression model we are able to predict housing prices in the King County region based off specific features.  This predictive model will be used when looking for houses to buy and sell.
+Housing market in King County region, especially in the major cities such as Seattle, are becoming more and more financially inaccessible for many demographics. The demographic of interest for our real-estate is millenials who are building their career, family and trying to break into the housing market to have a stable housing for themselves. With our house price predicition model, we will help them to find the market value of their ideal house that are in proximity to city centers.
   
-## Data and Tools
-To generate King County housing prices we used data from [King County Assessor Website](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r) which provides ![column names and descriptions](./data/column_names.md) for King County data set in the years of 2014-2015.
+## Data 
+### 1. To generate King County housing prices we used data provided to us by Flatiron School. This data file is available in the project repo in the folder "data" which provides ![column names and descriptions](./data/column_names.md) for King County data set in the years of 2014-2015.
 
--Talk about data from used for Geopandas
+### 2.  Incorporated & unincorporated cities in King county we downloaded this data from [King County GIS website](https://gis-kingcounty.opendata.arcgis.com/datasets/kingcounty::cities-and-unincorporated-king-county-city-kc-area/explore?location=47.430582%2C-121.809200%2C10.02). The data is also easily accessible in our project repo in the folder "data".
 
-This report uses pandas and geopandas to alter dataframes and sklearn for model building and testing. 
+### 3. Neighborhood Map of Seattle we attained this data from [Seattle city GIS website](https://data-seattlecitygis.opendata.arcgis.com/datasets/neighborhood-map-atlas-districts/explore?location=47.628714%2C-122.338313%2C11.43%5D). This data is also easily accessible in our project repo in the folder "data".
+
+## Tools
+This report uses pandas data analysis and dataframe manipulation.
+Geopandas used in python for working with geospatial data.
+Sklearn for machine learning and statistical modeling. 
 
 ## Results
 ### Location  
