@@ -14,7 +14,7 @@ King County in Washington State is growing in population made up of millenials a
 ## Stakeholder  
   
 ## Business Problem
-Every indiviual homeseeker desires features about their future home.  Using our multiple linear regression model we are able to predict housing prices in the King County region based off specific features.  This predictive model will be used when looking for houses to buy and sell.
+Every indiviual homeseeker desires features about their future home, but they do not always know how much it may cost them.  Using our multiple linear regression model we are able to predict housing prices in the King County region based off specific features.  This predictive model will be used when looking for houses to buy and sell.
   
 ## Data and Tools
 To generate King County housing prices we used data from ![King County Assessor Website](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r) which provides ![column names and descriptions](./data/column_names.md) for King County data set in the years of 2014-2015.
