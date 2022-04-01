@@ -34,21 +34,21 @@ By using geopandas and our King County data we were able to produce a geospatial
 * Activity is concentrated around Seattle.  Which you can an save $14,000 per mile as you move away from Seattle when buying a house.  
 * Housing Prices are highest around Lake Washington and Sammamish.  Having a waterfront house can greatly increase the house cost by $630,000.
 * By having State Parks scenic views it can increase house costs by $55,000 or more.
-![img](./images/property_price_map.jpg)
+![img](./Images/property_price_map.jpg)
 
 By using geopandas and our King County data we were able to produce a geospatial image depicting median house price by neighborhood in Seattle.  There are many inferences that can be made from this image such as but not limited to:
 * Living in Seattle can be seen as 3 price regions northern, central, and southern. 
 * Central Seattle is the highest priced region with the most expensive neighborhoods.  Specifically, Capitol Hill being the most expensive location in Seattle with house prices costing an additional $208,000 over the median price to live in Seattle.  
 * Certain neighborhoods can save you money. In southern Seattle Greater Duwamish neighborhood is lowest pricing neighborhood with saving $192,000 under the median price to live in Seattle. In Northern Seattle Northgate is a lower pricing neighborhood which values $53,000 under the median price to live in Seattle.
-![img](./images/mean_price_by_neighborhood_map.jpg)
+![img](./Images/mean_price_by_neighborhood_map.jpg)
 
 House price living space is affected by location if its in Seattle or not.  The median house price in Seattle is $510,000, and the median outside is $424,000.  Seattle premium can cost $90,000 more.  Additionally Living Space in King County increases by 18,000 per 100sqft.
-![img](./images/price_by_living_space.jpg)
+![img](./Images/price_by_living_space.jpg)
 
 
 ### Modeling Results 
 Considering bedrooms is another example of insights that the Millennial Homeowner Program can provide.  We found that, for similarly sized houses, adding an additional bedroom can SAVE you $15,000.  This may be because each bedroom is smaller, but knowing this could still be important for growing families
-![img](./images/Images/lmplot_price-vs-sqft_living-by_bedrooms.jpg)
+![img](./Images/lmplot_price-vs-sqft_living-by_bedrooms.jpg)
 
 If you appreciate higher quality craftsmanship in your home, you might save by doing the work yourself.  Purchasing 'very good' quality can cost over $300,000 more than 'average' quality.  Also, recently renovated properties can cost $50,000 more, even for the same quality craftsmanship
 ![img](./Images/barplot_price-vs-grade-by-renovated.jpg)
@@ -62,7 +62,7 @@ We can help you discover which neighborhoods will save you money.  Scenic locati
 **Next, Don't pay for space you don't need!**
 Fitting more bedrooms in the same living space can save you money.
 
-**If you want high-quality workmanship, consider doing work yourself**
+**If you want high-quality workmanship, consider doing work yourself.**
 Higher-quality properties cost much more.  Recently renovated properties cost more, even for the same quality. 
 
   
