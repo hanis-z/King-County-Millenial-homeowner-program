@@ -69,14 +69,13 @@ Higher-quality properties cost much more.  Recently renovated properties cost mo
 ├── data  
 ├── images
 ├── IndividualNotebooks  
-│       ├── Greg_updated_notebook.ipynb
 │       ├── Hanis_notebook.ipynb
 │       ├── Hanis_notebook_proper.ipynb
 │       ├── initial_data_exploration_and_cleaning.ipynb
 │       ├── Kyle notebook.ipynb
 │       └── modeling_and_validation_notebook.ipynb
 │
-├── gitignore
+├── .gitignore
 ├── King_County_Affordable_housing.ipynb 
 ├── README.md
 ├── add_city_neighborhood.ipynb
