@@ -15,7 +15,7 @@ King County in Washington State is growing in population made up of millenials a
 Housing market in King County region, especially in the major cities such as Seattle, are becoming more and more financially inaccessible for many demographics. The demographic of interest for our real-estate is millenials who are building their career, family and trying to break into the housing market to have a stable house for themselves. With our house price predicition model, we will help them to find the market value of their ideal house that are in proximity to city centers.
   
 ## Data 
-To generate King County housing prices we used data provided to us by Flatiron School. This data file is available in the project repo in the folder "data" as well as a [README](./data/column_names.md) which provides information on its corrolated column names and descriptions(./data/column_names.md) for King County data set in the years of 2014-2015.
+To generate King County housing prices we used data provided to us by Flatiron School. This data file is available in the project repo in the folder "data" as well as a [file](./data/column_names.md) which provides information on its corrolated column names and descriptions(./data/column_names.md) for King County data set in the years of 2014-2015.
 
 Incorporated & unincorporated cities in King county we downloaded this data from [King County GIS website](https://gis-kingcounty.opendata.arcgis.com/datasets/kingcounty::cities-and-unincorporated-king-county-city-kc-area/explore?location=47.430582%2C-121.809200%2C10.02). The data is also easily accessible in our project repo in the folder "data".
 
@@ -53,8 +53,6 @@ Considering bedrooms is another example of insights that the Millennial Homeowne
 If you appreciate higher quality craftsmanship in your home, you might save by doing the work yourself.  Purchasing 'very good' quality can cost over $300,000 more than 'average' quality.  Also, recently renovated properties can cost $50,000 more, even for the same quality craftsmanship
 ![img](./Images/barplot_price-vs-grade-by-renovated.jpg)
 
-**Graph depicting Improvement of our model**  Should we add this?  graphing our models versus the RMSE
-
 ## Conclusion
 **Location, location, location:**
 We can help you discover which neighborhoods will save you money.  Scenic locations can be wonderful, but may cost you substantially
@@ -83,7 +81,6 @@ Higher-quality properties cost much more.  Recently renovated properties cost mo
 ├── README.md
 ├── add_city_neighborhood.ipynb
 └── geo_env.yml 
-  README.md  
   ```
 ## Next Steps  
 We plan to continue developing our predictive models in several ways. 
