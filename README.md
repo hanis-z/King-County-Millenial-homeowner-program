@@ -53,6 +53,11 @@ Considering bedrooms is another example of insights that the Millennial Homeowne
 If you appreciate higher quality craftsmanship in your home, you might save by doing the work yourself.  Purchasing 'very good' quality can cost over $300,000 more than 'average' quality.  Also, recently renovated properties can cost $50,000 more, even for the same quality craftsmanship
 ![img](./Images/barplot_price-vs-grade-by-renovated.jpg)
 
+### Modeling Performance
+Ultimately, our predictive model was able to capture 76.6% of the variance on price values in a withheld test dataset. There is substantial variability in house sale prices in King County. Nonetheless, we were able to reduce errors in prediction (RMSE) from $377,524.87 in our baseline model to $298,454.09. There are likely additional changes that could be made to reduce errors in our prediction. We will explore those steps in the future.
+![img](./Images/model_performance.jpg)
+
+
 ## Conclusion
 **Location, location, location:**
 We can help you discover which neighborhoods will save you money.  Scenic locations can be wonderful, but may cost you substantially
