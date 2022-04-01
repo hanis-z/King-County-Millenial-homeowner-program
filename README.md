@@ -54,7 +54,7 @@ If you appreciate higher quality craftsmanship in your home, you might save by d
 ![img](./Images/barplot_price-vs-grade-by-renovated.jpg)
 
 ### Modeling Performance
-Ultimately, our predictive model was able to capture 76.6% of the variance on price values in a withheld test dataset. There is substantial variability in house sale prices in King County. Nonetheless, we were able to reduce errors in prediction (RMSE) from $377,524.87 in our baseline model to $298,454.09. There are likely additional changes that could be made to reduce errors in our prediction. We will explore those steps in the future.
+Ultimately, our predictive model was able to capture 76.6% of the variance on price values in a withheld test dataset. There is substantial variability in house sale prices in King County. Nonetheless, we were able to reduce errors in prediction (RMSE) from $606,752 in our baseline model to $298,454. There are likely additional changes that could be made to reduce errors in our prediction. We will explore those steps in the future.
 ![img](./Images/model_performance.jpg)
 
 
