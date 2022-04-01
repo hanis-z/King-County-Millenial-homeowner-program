@@ -15,7 +15,7 @@ King County in Washington State is growing in population made up of millenials a
 Housing market in King County region, especially in the major cities such as Seattle, are becoming more and more financially inaccessible for many demographics. The demographic of interest for our real-estate is millenials who are building their career, family and trying to break into the housing market to have a stable house for themselves. With our house price predicition model, we will help them to find the market value of their ideal house that are in proximity to city centers.
   
 ## Data 
-To generate King County housing prices we used data provided to us by Flatiron School. This data file is available in the project repo in the folder "data" as well as a [file](data/column_names.md) which provides information on its corrolated column names and descriptions(data/column_names.md) for King County data set in the years of 2014-2015.
+To generate King County housing prices we used data provided to us by Flatiron School. This data file is available in the project repo in the folder "data" as well as a [file](data/column_names.md) which provides information on its corrolated column names and descriptions for King County data set in the years of 2014-2015.
 
 Incorporated & unincorporated cities in King county we downloaded this data from [King County GIS website](https://gis-kingcounty.opendata.arcgis.com/datasets/kingcounty::cities-and-unincorporated-king-county-city-kc-area/explore?location=47.430582%2C-121.809200%2C10.02). The data is also easily accessible in our project repo in the folder "data".This dateset provided us with city boundaries of cities in king county in a shapefile along with `CITYNAME`.
 
