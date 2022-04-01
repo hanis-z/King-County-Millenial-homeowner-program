@@ -17,9 +17,9 @@ Housing market in King County region, especially in the major cities such as Sea
 ## Data 
 To generate King County housing prices we used data provided to us by Flatiron School. This data file is available in the project repo in the folder "data" as well as a [file](data/column_names.md) which provides information on its corrolated column names and descriptions(data/column_names.md) for King County data set in the years of 2014-2015.
 
-Incorporated & unincorporated cities in King county we downloaded this data from [King County GIS website](https://gis-kingcounty.opendata.arcgis.com/datasets/kingcounty::cities-and-unincorporated-king-county-city-kc-area/explore?location=47.430582%2C-121.809200%2C10.02). The data is also easily accessible in our project repo in the folder "data".
+Incorporated & unincorporated cities in King county we downloaded this data from [King County GIS website](https://gis-kingcounty.opendata.arcgis.com/datasets/kingcounty::cities-and-unincorporated-king-county-city-kc-area/explore?location=47.430582%2C-121.809200%2C10.02). The data is also easily accessible in our project repo in the folder "data".This dateset provided us with city boundaries of cities in king county in a shapefile along with `CITYNAME`.
 
-Neighborhood Map of Seattle we attained this data from [Seattle city GIS website](https://data-seattlecitygis.opendata.arcgis.com/datasets/neighborhood-map-atlas-districts/explore?location=47.628714%2C-122.338313%2C11.43%5D). This data is also easily accessible in our project repo in the folder "data".
+Neighborhood Map of Seattle we attained this data from [Seattle city GIS website](https://data-seattlecitygis.opendata.arcgis.com/datasets/neighborhood-map-atlas-districts/explore?location=47.628714%2C-122.338313%2C11.43%5D). This data is also easily accessible in our project repo in the folder "data". This dataset provided us with neighborhood boundaries of neighborhoods in Seattle city along with neighborhood (`L_HOOD`).
 
 ## Tools
 This report uses pandas for data analysis and dataframe manipulation. Sklearn for machine learning and statistical modeling. We utilized data from these sources to build a house price predictor model.
